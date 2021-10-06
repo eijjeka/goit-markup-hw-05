@@ -131,8 +131,8 @@ ul {
 .nav-link {
   position: relative;
 
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding-top: 32px;
   padding-bottom: 33px;
 
@@ -150,6 +150,7 @@ ul {
   content: '';
   position: absolute;
   bottom: -1px;
+  left: 0;
   width: 100%;
   height: 4px;
 
